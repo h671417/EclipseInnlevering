@@ -8,10 +8,10 @@ public class Oppgaveb5 {
 	public static void main(String[] args) {
 		
 		int i = 0;
-		 
-		while (i<10); {
+
+		while (i<10) {
 		String karakter= "";
-		
+		System.out.println(i);
 		String poengTxt= showInputDialog("skriv inn antall poeng fra 0-100");
 		int poeng= parseInt(poengTxt);
 		
@@ -40,11 +40,9 @@ public class Oppgaveb5 {
 		}
 		if((poeng>=0) && (poeng<=100)); {
 			showMessageDialog(null, "Karakter:" + karakter);
-			System.out.println(karakter);
-			i++;
-			
-			
+			System.out.println(karakter);			
 		}
+		i++;
 		
 		}
 				
